@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "license": "MIT",
   "description": "Local MCP server that exposes SSH and SFTP tools for Codex.",
   "dependencies": {
     "ssh2": "^1.17.0"

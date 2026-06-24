@@ -65,5 +65,4 @@ The smoke test starts the configured MCP server, calls `initialize`, requests `t
 
 ## License
 
-No license has been selected yet. Add a license before treating this repository as open source.
-
+This project is released under the MIT License. See [LICENSE](LICENSE).
