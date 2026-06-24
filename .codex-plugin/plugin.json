@@ -1,0 +1,27 @@
+{
+  "name": "codex-ssh",
+  "version": "0.1.0+codex.20260615095448",
+  "description": "Reusable SSH and SFTP tools for Codex.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex SSH",
+    "shortDescription": "Connect to SSH hosts from Codex.",
+    "longDescription": "Codex SSH provides reusable local MCP tools for SSH command execution, interactive shells, and SFTP file transfer.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "SSH",
+      "SFTP",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Connect to my server with Codex SSH.",
+      "Run a diagnostic command over SSH.",
+      "Transfer files with SFTP."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

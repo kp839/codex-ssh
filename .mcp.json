@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "codex_ssh": {
+      "title": "Codex SSH",
+      "description": "SSH command execution, interactive shells, and SFTP file transfer.",
+      "cwd": ".",
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/s",
+        "/c",
+        "scripts\\start-mcp.cmd"
+      ],
+      "note": "Local SSH/SFTP MCP server. Uses ssh2 and keeps credentials only in memory for the running MCP process."
+    }
+  }
+}

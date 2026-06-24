@@ -1,0 +1,21 @@
+interface:
+  display_name: "Codex SSH"
+  short_description: "Use reusable SSH and SFTP MCP tools for remote server commands, deployments, diagnostics, interactive shells, and file transfer."
+  default_prompt: "Use Codex SSH to connect to a remote server, run commands, or transfer files."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - ssh_connect
+    - ssh_exec
+    - ssh_shell_open
+    - ssh_shell_write
+    - ssh_shell_read
+    - ssh_shell_close
+    - ssh_disconnect
+    - ssh_list_sessions
+    - sftp_upload
+    - sftp_download
+    - sftp_list
+    - sftp_read_text
+    - sftp_write_text
